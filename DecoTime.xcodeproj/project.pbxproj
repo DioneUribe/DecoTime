@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51A97C262DBAC76200414185 /* DecoTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A97C252DBAC76200414185 /* DecoTimeApp.swift */; };
+		51A97C282DBAC76200414185 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A97C272DBAC76200414185 /* ContentView.swift */; };
+		51A97C2A2DBAC76400414185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A97C292DBAC76400414185 /* Assets.xcassets */; };
+		51A97C2D2DBAC76400414185 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A97C2C2DBAC76400414185 /* Preview Assets.xcassets */; };
+		51A97C372DBAC76400414185 /* DecoTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A97C362DBAC76400414185 /* DecoTimeTests.swift */; };
+		51A97C412DBAC76400414185 /* DecoTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A97C402DBAC76400414185 /* DecoTimeUITests.swift */; };
+		51A97C432DBAC76400414185 /* DecoTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A97C422DBAC76400414185 /* DecoTimeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51A97C332DBAC76400414185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51A97C1A2DBAC76100414185 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51A97C212DBAC76200414185;
+			remoteInfo = DecoTime;
+		};
+		51A97C3D2DBAC76400414185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51A97C1A2DBAC76100414185 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51A97C212DBAC76200414185;
+			remoteInfo = DecoTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51A97C222DBAC76200414185 /* DecoTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecoTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A97C252DBAC76200414185 /* DecoTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoTimeApp.swift; sourceTree = "<group>"; };
+		51A97C272DBAC76200414185 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		51A97C292DBAC76400414185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51A97C2C2DBAC76400414185 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51A97C322DBAC76400414185 /* DecoTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecoTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A97C362DBAC76400414185 /* DecoTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoTimeTests.swift; sourceTree = "<group>"; };
+		51A97C3C2DBAC76400414185 /* DecoTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecoTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A97C402DBAC76400414185 /* DecoTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoTimeUITests.swift; sourceTree = "<group>"; };
+		51A97C422DBAC76400414185 /* DecoTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51A97C1F2DBAC76200414185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A97C2F2DBAC76400414185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A97C392DBAC76400414185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51A97C192DBAC76100414185 = {
+			isa = PBXGroup;
+			children = (
+				51A97C242DBAC76200414185 /* DecoTime */,
+				51A97C352DBAC76400414185 /* DecoTimeTests */,
+				51A97C3F2DBAC76400414185 /* DecoTimeUITests */,
+				51A97C232DBAC76200414185 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51A97C232DBAC76200414185 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51A97C222DBAC76200414185 /* DecoTime.app */,
+				51A97C322DBAC76400414185 /* DecoTimeTests.xctest */,
+				51A97C3C2DBAC76400414185 /* DecoTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51A97C242DBAC76200414185 /* DecoTime */ = {
+			isa = PBXGroup;
+			children = (
+				51A97C252DBAC76200414185 /* DecoTimeApp.swift */,
+				51A97C272DBAC76200414185 /* ContentView.swift */,
+				51A97C292DBAC76400414185 /* Assets.xcassets */,
+				51A97C2B2DBAC76400414185 /* Preview Content */,
+			);
+			path = DecoTime;
+			sourceTree = "<group>";
+		};
+		51A97C2B2DBAC76400414185 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				51A97C2C2DBAC76400414185 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51A97C352DBAC76400414185 /* DecoTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				51A97C362DBAC76400414185 /* DecoTimeTests.swift */,
+			);
+			path = DecoTimeTests;
+			sourceTree = "<group>";
+		};
+		51A97C3F2DBAC76400414185 /* DecoTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51A97C402DBAC76400414185 /* DecoTimeUITests.swift */,
+				51A97C422DBAC76400414185 /* DecoTimeUITestsLaunchTests.swift */,
+			);
+			path = DecoTimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51A97C212DBAC76200414185 /* DecoTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51A97C462DBAC76400414185 /* Build configuration list for PBXNativeTarget "DecoTime" */;
+			buildPhases = (
+				51A97C1E2DBAC76200414185 /* Sources */,
+				51A97C1F2DBAC76200414185 /* Frameworks */,
+				51A97C202DBAC76200414185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DecoTime;
+			productName = DecoTime;
+			productReference = 51A97C222DBAC76200414185 /* DecoTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51A97C312DBAC76400414185 /* DecoTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51A97C492DBAC76400414185 /* Build configuration list for PBXNativeTarget "DecoTimeTests" */;
+			buildPhases = (
+				51A97C2E2DBAC76400414185 /* Sources */,
+				51A97C2F2DBAC76400414185 /* Frameworks */,
+				51A97C302DBAC76400414185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51A97C342DBAC76400414185 /* PBXTargetDependency */,
+			);
+			name = DecoTimeTests;
+			productName = DecoTimeTests;
+			productReference = 51A97C322DBAC76400414185 /* DecoTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51A97C3B2DBAC76400414185 /* DecoTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51A97C4C2DBAC76400414185 /* Build configuration list for PBXNativeTarget "DecoTimeUITests" */;
+			buildPhases = (
+				51A97C382DBAC76400414185 /* Sources */,
+				51A97C392DBAC76400414185 /* Frameworks */,
+				51A97C3A2DBAC76400414185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51A97C3E2DBAC76400414185 /* PBXTargetDependency */,
+			);
+			name = DecoTimeUITests;
+			productName = DecoTimeUITests;
+			productReference = 51A97C3C2DBAC76400414185 /* DecoTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51A97C1A2DBAC76100414185 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					51A97C212DBAC76200414185 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					51A97C312DBAC76400414185 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 51A97C212DBAC76200414185;
+					};
+					51A97C3B2DBAC76400414185 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 51A97C212DBAC76200414185;
+					};
+				};
+			};
+			buildConfigurationList = 51A97C1D2DBAC76100414185 /* Build configuration list for PBXProject "DecoTime" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51A97C192DBAC76100414185;
+			productRefGroup = 51A97C232DBAC76200414185 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51A97C212DBAC76200414185 /* DecoTime */,
+				51A97C312DBAC76400414185 /* DecoTimeTests */,
+				51A97C3B2DBAC76400414185 /* DecoTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51A97C202DBAC76200414185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A97C2D2DBAC76400414185 /* Preview Assets.xcassets in Resources */,
+				51A97C2A2DBAC76400414185 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A97C302DBAC76400414185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A97C3A2DBAC76400414185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51A97C1E2DBAC76200414185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A97C282DBAC76200414185 /* ContentView.swift in Sources */,
+				51A97C262DBAC76200414185 /* DecoTimeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A97C2E2DBAC76400414185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A97C372DBAC76400414185 /* DecoTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A97C382DBAC76400414185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A97C432DBAC76400414185 /* DecoTimeUITestsLaunchTests.swift in Sources */,
+				51A97C412DBAC76400414185 /* DecoTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51A97C342DBAC76400414185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51A97C212DBAC76200414185 /* DecoTime */;
+			targetProxy = 51A97C332DBAC76400414185 /* PBXContainerItemProxy */;
+		};
+		51A97C3E2DBAC76400414185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51A97C212DBAC76200414185 /* DecoTime */;
+			targetProxy = 51A97C3D2DBAC76400414185 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		51A97C442DBAC76400414185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51A97C452DBAC76400414185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51A97C472DBAC76400414185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DecoTime/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dioneuribe.DecoTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51A97C482DBAC76400414185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DecoTime/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dioneuribe.DecoTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51A97C4A2DBAC76400414185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dioneuribe.DecoTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecoTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DecoTime";
+			};
+			name = Debug;
+		};
+		51A97C4B2DBAC76400414185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dioneuribe.DecoTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecoTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DecoTime";
+			};
+			name = Release;
+		};
+		51A97C4D2DBAC76400414185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dioneuribe.DecoTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DecoTime;
+			};
+			name = Debug;
+		};
+		51A97C4E2DBAC76400414185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dioneuribe.DecoTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DecoTime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51A97C1D2DBAC76100414185 /* Build configuration list for PBXProject "DecoTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A97C442DBAC76400414185 /* Debug */,
+				51A97C452DBAC76400414185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51A97C462DBAC76400414185 /* Build configuration list for PBXNativeTarget "DecoTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A97C472DBAC76400414185 /* Debug */,
+				51A97C482DBAC76400414185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51A97C492DBAC76400414185 /* Build configuration list for PBXNativeTarget "DecoTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A97C4A2DBAC76400414185 /* Debug */,
+				51A97C4B2DBAC76400414185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51A97C4C2DBAC76400414185 /* Build configuration list for PBXNativeTarget "DecoTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A97C4D2DBAC76400414185 /* Debug */,
+				51A97C4E2DBAC76400414185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51A97C1A2DBAC76100414185 /* Project object */;
+}
